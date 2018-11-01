@@ -1,0 +1,13 @@
+{
+    "name": "hypernova-demo",
+    "private": true,
+    "dependencies": {
+        "hypernova": "^2.4.0",
+        "hypernova-react": "^2.1.0",
+        "react": "^16.6.0",
+        "react-dom": "^16.6.0"
+    },
+    "scripts": {
+        "server": "NODE_ENV=production node hypernova.js"
+    }
+}
