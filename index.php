@@ -15,9 +15,10 @@
 
 	  $renderer->addJob('Hello.js', ['name' => 'Hello.js', 'data' => ['name' => 'Fredrik']]);
 
-	  $response = $renderer->render();
+    $response = $renderer->render();
 
     echo $response->results['Hello.js']->html;
     ?>
+    <script src="frontend/build/bundle.js"></script>
   </body>
 </html>

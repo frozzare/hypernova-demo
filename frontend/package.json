@@ -8,6 +8,10 @@
         "react-dom": "^16.6.0"
     },
     "scripts": {
+        "build": "browserify src/*.js -o build/bundle.js",
         "server": "NODE_ENV=production node hypernova.js"
+    },
+    "devDependencies": {
+        "browserify": "^16.2.3"
     }
 }
